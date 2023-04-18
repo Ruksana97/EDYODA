@@ -8,10 +8,9 @@ def count(string):
         elif ord(i) >= ord('a') and ord(i) <=ord('z') :
             count_lower+=1
 
-    print('The upper count is:',count_upper)
-    print('The lower count is:',count_lower)
+    print('No of Upper case characters:',count_upper)
+    print('No of lower case characters:',count_lower)
     return ''
 
-string=input('')
-print(count(string))
-print(ord(' '))
+
+print(count('The quick Brow Fox'))
