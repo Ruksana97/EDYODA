@@ -5,4 +5,4 @@ def add(*a):
     return sum
 
 
-print(add(18,2,3,0,7))
+print(add(8,2,3,0,7))
