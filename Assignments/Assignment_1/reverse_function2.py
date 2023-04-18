@@ -1,5 +1,5 @@
-def rev(string):
+def reverse(string):
     return string[::-1]
 
 
-print(rev('1234abcd'))
+print(reverse('1234abcd'))
