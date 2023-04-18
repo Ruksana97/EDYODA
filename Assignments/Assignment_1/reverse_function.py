@@ -4,5 +4,5 @@ def rev(string):
         reverse=reverse+string[i]
     return reverse
 
-string='1234abcd'
-print(rev(string))
+
+print(rev('1234abcd'))
